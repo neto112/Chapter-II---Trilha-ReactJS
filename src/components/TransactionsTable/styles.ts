@@ -11,7 +11,7 @@ table {
         color: var(--text-body);
         font-weight: 400;
         padding: 1rem 2rem;
-        text-align: screenLeft;
+        text-align: left;
         line-height: 1.5rem;
     }
 
@@ -22,7 +22,7 @@ table {
         color: var(--text-body);
         border-radius: 0.25rem;
 
-        &.first-child {
+        &:first-child {
             color: var(--text-title);
         }
 
