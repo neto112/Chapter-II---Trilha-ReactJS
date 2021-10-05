@@ -1,6 +1,6 @@
 import incomeImg from '../../assets/income.svg';
-import outcomeImg from '../../assets/income.svg';
-import totalImg from '../../assets/income.svg';
+import outcomeImg from '../../assets/outcome.svg';
+import totalImg from '../../assets/total.svg';
 
 import { Container } from "./styles";
 
@@ -19,7 +19,7 @@ export function Summary() {
                     <p>Saídas</p>
                     <img src={outcomeImg} alt="Saídas" />
                 </header>
-                <strong>- R$5000,00</strong>
+                <strong>- R$500,00</strong>
             </div>
             <div className="highlight-background">
                 <header>
