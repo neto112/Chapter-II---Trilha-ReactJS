@@ -31,5 +31,4 @@ div {
         color: #FFF;
     }
 }
-
 `
